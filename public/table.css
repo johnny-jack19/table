@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(191, 198, 202);
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 4em;
+    margin: 10px;
+    text-shadow: 2px 2px 2px black;
+}
+
+.hidden {
+    display: none;
+}
+
+.info, .posts {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+table {
+    background-color: black;
+    font-size: large;
+    margin: auto;
+}
+
+th, td {
+    padding: .7em;
+}
+
+.table-head {
+    background-color: rgb(39, 76, 119);
+    color: white;
+}
+
+.odd {
+    background-color: rgb(96, 150, 186);
+}
+
+.even {
+    background-color: rgb(163, 206, 241);
+}
+
+#modal {
+    position: absolute;
+    border: 1px solid black;
+    width: 80vw;
+    left: 10vw;
+    top: 10vh;
+    background-color: rgb(231, 236, 239);
+}
+
+.exit {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: white;
+    background-color: rgb(39, 76, 119);
+    width: 25px;
+    height: 25px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.modal-data:nth-child(even), .post:nth-child(even) {
+    background-color: rgb(139, 140, 137);
+}
+
+.modal-data {
+    padding: 1.5em;
+}
+
+.post {
+    padding: .5em;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 800px) {
+    #modal {
+        width: 97vw;
+        left: 1.5vw;
+    }
+}
